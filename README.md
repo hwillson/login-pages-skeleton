@@ -1,0 +1,3 @@
+#Login Pages style with Skeleton
+
+Sometimes I prefer regular login and signup pages instead of the dropdown that comes with accounts-ui. Therefore, I created this package! It depends on Iron Router and the Skeleton Css framework and provides you with two routes "/submit" and "/login". The sign up form includes fields for email, username, and password while the login form asks only for an email and password.
