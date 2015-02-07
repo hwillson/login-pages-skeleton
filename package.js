@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ryanswapp:login-pages-skeleton',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Login and signup pages for Meteor accounts styled with skeleton',
   // URL to the Git repository containing the source code for this package.
@@ -29,7 +29,8 @@ Package.onUse(function(api) {
         'lib/client/login/login.js',
         'lib/client/signup/signup.html',
         'lib/client/signup/signup.css',
-        'lib/client/signup/signup.js'
+        'lib/client/signup/signup.js',
+        'lib/client/accounts_config.js'
     ], 'client');
 });
 
