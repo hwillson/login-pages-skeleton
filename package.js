@@ -16,7 +16,8 @@ Package.onUse(function(api) {
         'templating',
         'iron:router@1.0.7',
         'accounts-password',
-        'skeleton:skeleton@2.0.4'
+        'skeleton:skeleton@2.0.4',
+        'ryanswapp:errors@0.0.12'
     ]);
 
     api.addFiles([
