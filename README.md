@@ -9,10 +9,10 @@ The sign up form includes fields for email, username, and password while the log
 
     meteor add ryanswapp:login-pages-skeleton
 
-    meteor add ryanswapp:errors
-
 Add error template to layout template just above {{> yield}}
 
     {{> meteorErrors}}
 
 Go to /signup or /login in your browser and you should have new accounts pages.
+
+The login template is named "Login" and the signup template is named "Signup."
