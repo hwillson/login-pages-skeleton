@@ -1,11 +1,16 @@
-#Login Pages style with Skeleton
+# Login Pages Styled With Skeleton
+
+**Fork of [ryanswapp:login-pages-skeleton](https://github.com/ryanswapp/login-pages-skeleton) to replace [iron:router](https://github.com/iron-meteor/iron-router) dependency with [meteorhacks:flow-router](https://github.com/meteorhacks/flow-router).**
+
+From [ryanswapp:login-pages-skeleton](https://github.com/ryanswapp/login-pages-skeleton):
 
 Sometimes I prefer regular login and signup pages instead of the dropdown that comes with accounts-ui. Therefore, I created this package!
 
-The package depends on iron:router, skeleton:skeleton, and accounts-password and it provides you with two routes and templates for "/submit" and "/login".
+The package depends on **meteorhacks:flow-router**, skeleton:skeleton, and accounts-password and it provides you with two routes and templates for "/submit" and "/login".
 
 The sign up form includes fields for email, username, and password while the login form asks only for an email and password.
-##Usage
+
+## Usage
 
     meteor add ryanswapp:login-pages-skeleton
 
